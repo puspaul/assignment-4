@@ -1,0 +1,237 @@
+body{
+    margin:0;
+}
+/*
+.navbar 
+{
+    height:80px;
+    margin-bottom:5px;
+    text-align:center;
+    align-items: center;
+    display:flex;
+  background-color: #333;
+  width:100%;
+  font-size:40px;
+    list-style: none;
+}
+*/
+.main
+{
+    background-color: pink;
+}
+.maincontainer{
+    position:relative;
+    width: 250px;
+    height: 320px;
+    padding :20px 20px 20px 20px;
+    display:inline-block;
+    float:left;
+    
+   
+}
+.resize
+{
+    width: 250px;
+    height: 320px;
+}
+
+.thecard{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.2s ease;
+    background:yellow;
+    
+    
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.theback{
+    
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:blue;
+     color:rgb(51, 51, 51);
+     
+    }
+    
+.thefront{
+    
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:pink;
+    color:blue;
+    transform: rotateY(180deg);
+}
+.opt
+{
+    font-size: 25px;
+    position: relative;
+    padding-right: 60px;
+    margin-left: 0;
+    float:left;
+    
+    color:black;
+}
+
+nav	
+{
+		width:100%;
+		margin:auto;
+		padding:0px 10px;
+		height:60px;
+		background-color:#43a286;
+		
+}
+
+
+nav p
+{
+    margin: none;
+		color:black;
+		font-size:36px;
+		font-family:arial;
+		line-height:1px;
+		float:left;
+		padding:32px 20px;
+		
+}
+nav ul
+{
+		overflow:hidden;
+        float:left;
+        padding:15px;
+		}
+	
+nav ul li
+{
+		display:inline-block;
+		float:left;
+		list-style:none;
+}
+nav ul li Link
+{
+	display:block;
+	font-family:arial;
+	font-size:16px;
+	color:inherit;
+	padding:51px 54px;
+    text-decoration:none;
+}
+
+.opt:hover
+{
+    margin-top: 0;
+    background-color:white;
+    font-size :40px;
+    
+}
+
+
+
+header
+{
+	
+	width:100%;
+	height:500px;
+	padding:0px 65px;
+	color:black;
+	text-align:center;
+	font-size:40px;
+	font-family:sans-serif;
+}
+body
+{
+	font-weight:italic;
+	font-style:arial;
+	background-color:#d0cdcd;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.name{
+    color:green;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.imdb
+{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: relative;
+    top:40px;
+}
+.like
+{
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    top:60px;
+color:blue;
+}
+.tit{
+    position: relative;
+    padding:20px 20px 20px 20px ;
+    color:black;
+    font-style: 
+}
+
+.atl
+{
+   
+        position:relative;
+      
+      font: bold 25px Arial;
+      left:25px;
+      text-decoration: none;
+      background-color: rgb(25, 211, 218);
+      color: black;
+      padding: 2px 6px 2px 6px;
+      border-top: 1px solid #CCCCCC;
+      border-right: 1px solid #333333;
+      border-bottom: 1px solid #333333;
+      border-left: 1px solid #CCCCCC;
+      border-radius: 200px;
+  
+    
+}
+.alte
+{
+   
+        position:relative;
+        top:225px;
+      display: block;
+      font: bold 25px Arial;
+      left:25px;
+      text-decoration: none;
+      background-color: rgb(25, 211, 218);
+      color: black;
+      padding: 2px 6px 2px 6px;
+      border-top: 1px solid #CCCCCC;
+      border-right: 1px solid #333333;
+      border-bottom: 1px solid #333333;
+      border-left: 1px solid #CCCCCC;
+      border-radius: 200px;
+  
+    
+}
+.wel{
+    position: relative;
+    left:250px;
+    font-size: 100px;
+    font-style: italic;
+    color:greenyellow;
+}
